@@ -1,0 +1,104 @@
+.hero-section {
+  width: 100%;
+}
+.hero-section .hero-section-our {
+  display: flex;
+}
+
+.container {
+  max-width: 1194px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v20-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v20-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/poppins-v20-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+.navbar {
+  position: fixed;
+  top: 0px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  border-bottom: 2px solid #e3e3e3;
+}
+.navbar .navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.navbar .navigation .nav-list {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.navbar .navigation .nav-list-item-link {
+  font-family: "Poppins";
+  transition: all 0.8s;
+  padding: 10px 10px;
+  border-radius: 4px;
+}
+.navbar .navigation .nav-list-item-link:hover {
+  transform: scale(1);
+  color: white;
+  background-color: #22343D;
+}
+
+.btn-group button {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  margin-left: 24px;
+  font-size: 16px;
+  border: none;
+  background: transparent;
+}
+.btn-group button:hover {
+  transition: 1s;
+  color: white;
+  width: 110px;
+  height: 43px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background: #02897A;
+}/*# sourceMappingURL=style.css.map */
